@@ -216,6 +216,10 @@ footer {
     width: 132px;
 }
 
+.more_footer {
+    width: 173px;
+}
+
 .us_info_footer {
     width: 92px;
 }
@@ -313,5 +317,29 @@ footer {
     .footer_inf li {
         padding: 0;
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 465px) {
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    footer h1 {
+        font-size: 20px;
+        color: #dedede;
+    }
+}
+
+@media (max-width: 305px) {
+
+    header h1 {
+        font-size: 15px;
+    }
+
+    footer h1 {
+        font-size: 15px;
+        color: #dedede;
     }
 }
